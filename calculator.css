@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    /* width: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background: rgba(10, 8, 9, 0.97); */
+}
+#calculator{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid blue; */
+    background-color: transparent;
+    box-shadow: 1px 3px 15px rgba(208, 211, 219, 0.5);
+    border-radius: 20px;
+    background-color: white;
+}
+input{
+    height: 40px;
+    width: 250px;
+    padding: 15px;
+    border: transparent;
+    background-color: transparent;
+    /* background-color: black; */
+    background-color: rgba(rgb(220, 217, 217), rgb(193, 196, 193), rgb(238, 238, 239), 0.9);
+    border-radius: 20px;
+    box-shadow: 2px 5px 20px rgba(208, 211, 219, 0.5);
+    font-size: 30px;
+
+}
+button{
+    height: 50px;
+    width: 50px;
+    border: transparent;
+    box-shadow: 1px 3px 15px rgba(15, 16, 23, 0.5);
+    background-color: transparent;
+    /* background-color: black; */
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    /* color: white; */
+}
+input::placeholder{
+    font-size: 30px;
+    /* color: black; */
+    /* color: white; */
+    color: black;
+    padding: 10px;
+    margin: 5px;
+}
+#cal{
+    
+    color:black;
+    background-color: rgb(212, 212, 174);
+    font-size: 25px;
+}
