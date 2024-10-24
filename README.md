@@ -1,1 +1,2 @@
 # calculator
+Author - Hasmuddin Alam
